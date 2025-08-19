@@ -2,4 +2,4 @@
     #### Video Demo:  <URL HERE>
     #### Description:
     TODO
-    Many changes are still needed to make.
+    Many changes are still needed to be made.
