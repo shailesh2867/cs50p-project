@@ -1,2 +1,5 @@
-# cs50p-project
-My final project for the CS50P Python course
+# GUESS IT!
+    #### Video Demo:  <URL HERE>
+    #### Description:
+    TODO
+    Many changes are still needed to make.
