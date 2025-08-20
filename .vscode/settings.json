@@ -1,4 +1,3 @@
-
 {
     
     "editor.guides.indentation": true,
@@ -12,4 +11,3 @@
     "terminal.integrated.initialHint": false,
     "workbench.editor.empty.hint": "hidden",
 }
-
