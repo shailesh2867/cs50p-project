@@ -27,7 +27,7 @@ def get_guess(test_input=None):
                 return guess
             print("Enter a number between 1 and 20 ❗")
         except ValueError:
-            print("Invalid ❌ Enter a number.")
+            print("Invalid choice ❌ Please Enter a number between 1 and 20")
         # Break loop for test_input to avoid infinite loop
         if test_input is not None:
             return None
