@@ -1,2 +1,2 @@
-** Libraries required:
+Libraries required:
 - pyfiglet
