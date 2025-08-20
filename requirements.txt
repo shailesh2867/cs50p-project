@@ -1,1 +1,2 @@
-### MY CS50P PROJECT    - pyfiglet
+## Libraries to install    
+- pyfiglet
