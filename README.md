@@ -34,6 +34,13 @@ This game challenges players to guess a number between 1 and 20, randomly select
 - test_game.py: Tests key functions for valid inputs, edge cases, and correct game behavior.
 - requirements.txt: Lists pyfiglet as the dependency.
 
+### File Descriptions
+
+- README.md: In this I Write about my project what my program does and how does it work 
+- project.py: This is the main part of the project 
+- requirements.txt: in this all the requirement is been stored
+- test_project.py: In this the test cases for this project is been written 
+
 ### Installation and Usage
 1. Install dependencies: pip install -r requirements.txt
 2. Run the game: python game.py
