@@ -1,2 +1,2 @@
-## Libraries to install    
+Libraries to install    
   - pyfiglet
