@@ -5,7 +5,7 @@
 # Project title: "Guess it!"
 
 ## Pjoject Description
-This game is written in python, is a quiz asking the user to guess a number between 1 to 20, counts for the attempts made to get a correct answer and prints result based on attempts.
+This game is written in python, is a quiz asking the user to guess a number between 1 to 20, counts for the attempts made for getting a correct answer and prints result based on attempts alongwith grade awarded.
 
 ## Project Explanation
 "Guess it" is an interactive Python command-line game developed as my final project for CS50P. User(the player) is asked to guess a randomly generated number by system between 1 and 20, receiving feedback on whether their guess is lower than the number  or higher than the number. The game tracks attempts and awards a performance rating with stars based on guess efficiency. Built with object-oriented principles, it uses pyfiglet for an ASCII art title and includes a robust test suite to ensure functionality. The project demonstrates input validation, error handling, and modular design, meeting CS50P's requirements for a well-tested, user-friendly program.
