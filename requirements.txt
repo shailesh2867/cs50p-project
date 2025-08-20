@@ -1,2 +1,1 @@
-##Libraries used:
-    - pyfiglet
+### MY CS50P PROJECT    - pyfiglet
