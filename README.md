@@ -13,7 +13,7 @@ This game, written in Python, is a quiz that asks the user to guess a number bet
 ## How to run the program
 - install dependencies: `$ pip install -r requirements.txt`
 - Run program: `$ python project.py`
-- Test program: "$ pytest test_project.py
+- Test program: `$ pytest test_project.py`
 
 ## Libraries used 
 - pyfiglet (external)
