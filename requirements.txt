@@ -1,2 +1,2 @@
-Libraries to be installed:
+# External Libraries to be installed:
 pyfiglet
