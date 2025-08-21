@@ -10,7 +10,7 @@ class GuessGame:
 
 def main():
     # Big decorative ASCII title
-    ascii_title = pyfiglet.figlet_format("GUESS THE NUMBER", font="slant")
+    ascii_title = pyfiglet.figlet_format("GUESS IT!", font="slant")
     print(ascii_title)
     print("Welcome! Guess a number between 1-20.\n")
     game = GuessGame()
