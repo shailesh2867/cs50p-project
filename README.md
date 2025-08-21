@@ -1,7 +1,7 @@
 # MY CS50P PROJECT
 ![Static Badge](https://img.shields.io/badge/My_Name%3A-Shailesh_Ramteke-blue)
 
-![Static Badge](https://img.shields.io/badge/Link_For-YouTube-blue)   <URL .com>
+![Static Badge](https://img.shields.io/badge/Link_For-YouTube-blue)   <https://youtu.be/izse-xPPDV4>
 # Project title: "Guess it!"
 
 ## Project Description
