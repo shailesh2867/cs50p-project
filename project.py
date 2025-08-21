@@ -1,14 +1,16 @@
 import random
 import pyfiglet
+from datetime import datetime
 
 class GuessGame:
-    def __init__(self):
+    def __init__(self):   # <-- also fixed to init
         self._number = random.randint(1, 20)
         self._attempts = 0
+        self._start_time = datetime.now()  # game start time
 
 def main():
     # Big decorative ASCII title
-    ascii_title = pyfiglet.figlet_format("GUESS IT", font="slant")
+    ascii_title = pyfiglet.figlet_format("GUESS THE NUMBER", font="slant")
     print(ascii_title)
     print("Welcome! Guess a number between 1-20.\n")
     game = GuessGame()
@@ -27,7 +29,7 @@ def get_guess(test_input=None):
                 return guess
             print("Enter a number between 1 and 20 ❗")
         except ValueError:
-            print("Invalid choice ❌ Please Enter a number between 1 and 20")
+            print("Invalid ❌ Enter a number.")
         # Break loop for test_input to avoid infinite loop
         if test_input is not None:
             return None
@@ -41,8 +43,12 @@ def check_guess(guess, game):
         print("Guess a lower Number... ⬇️")
         return False
     else:
-        print(f"Correct! {guess} is the number! Awesome ✅")
+        print(f"Correct! {guess} is the number! ✅")
         print(f"You guessed it in {game._attempts} tries {'👍'*game._attempts}")
+
+        # Calculate total time taken
+        time_taken = datetime.now() - game._start_time
+        print(f"⏳ Time taken: {time_taken.seconds} seconds")
 
         # Determine result and stars
         if game._attempts <= 2:
@@ -69,5 +75,5 @@ def play(game):
         pass
 
 # Fixed entry point
-if __name__ == "__main__":
+if __name__ == "__main__":   # <-- fixed here too
     main()
