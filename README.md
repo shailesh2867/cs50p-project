@@ -35,7 +35,7 @@ This game challenges players to guess a number between 1 and 20, randomly select
   - above 8: "Satisfactory" (★)
 - The number of thumb-ups👍 along with the result are equal to number of attmpts made for right  answer.
 - Time taken to complete the game is also displayed in the result. 
-- Test Suite: test_game.py verifies input handling, guess checking, and gameplay logic using pytest.
+- Test Suite: test_project.py verifies input handling, guess checking, and gameplay logic using pytest.
 
 ### Files
 - project.py: Contains the GuessGame class, input validation (get_guess), guess checking (check_guess), and gameplay loop (play).
@@ -51,9 +51,9 @@ This game challenges players to guess a number between 1 and 20, randomly select
 
 ### Installation and Usage
 1. Install dependencies: pip install -r requirements.txt
-2. Run the game: python game.py
+2. Run the game: python project.py
 3. Enter guesses (1–20) and follow prompts until the player guess correctly.
-4. Run tests: python -m pytest test_game.py
+4. Run tests: python -m pytest test_project.py
 5. All invalid options are validated during accepting the input from player.
 
 ### Dependencies
