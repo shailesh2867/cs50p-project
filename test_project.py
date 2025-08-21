@@ -9,6 +9,7 @@ def test_get_guess():
     assert get_guess("25") is None
     assert get_guess("abc") is None
 
+
 #  Test check_guess() function
 
 

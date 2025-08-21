@@ -2,11 +2,13 @@ import random
 import pyfiglet
 from datetime import datetime
 
+
 class GuessGame:
-    def __init__(self):   # <-- also fixed to init
+    def __init__(self):  # <-- also fixed to init
         self._number = random.randint(1, 20)
         self._attempts = 0
         self._start_time = datetime.now()  # game start time
+
 
 def main():
     # Big decorative ASCII title
@@ -15,6 +17,7 @@ def main():
     print("Welcome! Guess a number between 1-20.\n")
     game = GuessGame()
     play(game)
+
 
 def get_guess(test_input=None):
     """
@@ -33,6 +36,7 @@ def get_guess(test_input=None):
         # Break loop for test_input to avoid infinite loop
         if test_input is not None:
             return None
+
 
 def check_guess(guess, game):
     game._attempts += 1
@@ -70,10 +74,12 @@ def check_guess(guess, game):
         print("+----------------------+")
         return True
 
+
 def play(game):
     while not check_guess(get_guess(), game):
         pass
 
+
 # Fixed entry point
-if __name__ == "__main__":   # <-- fixed here too
+if __name__ == "__main__":  # <-- fixed here too
     main()
